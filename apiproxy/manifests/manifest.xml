@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-Return-Signature" version="SHA-512:e8c1a0345d8a516805b0a26e627938b9f9ea35de4d0db5afbe6d1fb2981c0741d3bfcdcef05b79989d2109961f1435b27d4f83eb87af60161facbf78c09583a0"/>
+        <VersionInfo resourceName="JS-Compare-Hash" version="SHA-512:130ac0ad19ea533eec211574a8549b05dc684bf7ef51598165b500fbe42cc2f8c3d33891914106322bbbc6b992754117fe56cbdb555bc8764db9b28f7e1e881d"/>
+        <VersionInfo resourceName="JS-Create-Signature" version="SHA-512:0baaa085bf0a3025e5ae32db51b5d5fa4dd95c14ca9edd47aa4856fe1fda0c6da34f72dcf6e72daa8106052d71455ec60af16a643fb907bda7ce4823197af069"/>
+        <VersionInfo resourceName="RF-Invalid-Signature" version="SHA-512:9e2316c42b15c92dce87377c3f55a8856f11eb5485d7b5930bb493b178be72299f639629f54635f28d37d906278fe2abf271ffe96e5c47e8c51ce0f3203477f2"/>
+        <VersionInfo resourceName="VK-Verfy-Key" version="SHA-512:85740b2181f4911e7557818605a1d6515f141977c661d94d92880a8e7f915459a593625540ca6905f42a8c371a4c03b5cc786f0c8f627e3b2cb37dabe7cc3446"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:96f0836d86f5e4e9c9183ca3dab88646572b817636a44a20cdb3f316ca1a911ef5f695907cd017a95dd3397bdb5b90170bac24d18a9a022aec8bb8ef75b60501"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JS-Compare-Hash.js" version="SHA-512:a9eb073d6e442684da3888c1e7cd28d88f1fc2b29b9110b0901b3d31deff3b09f9314e94780db9c9f04bbea5ad9b2bace37ec087d01e0254e11db48a8f84fcd0"/>
+        <VersionInfo resourceName="jsc://JS-Create-Signature.js" version="SHA-512:cba0b754ed05c8d8c2a067cdfdef21e2fc3968fb6e4979761bb21a3e2df308db9dddec7bd83363212829481b6c6ab32e53e9dea416129034c49af60c55ef04ef"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:b7873a29888848be33b3871eb82ae8db951d9210bf7b3338f1fb42da8e1f467263c428d60ab4f69d1d22bdc28975f7d4873141c0912aa525984cdd6907d352a4"/>
+    </TargetEndpoints>
+</Manifest>

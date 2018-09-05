@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="test_mashery_key">
+    <Basepaths>/test_mashery_key</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1535566303100</CreatedAt>
+    <CreatedBy>gonzalezruben@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>test_mashery_key</DisplayName>
+    <LastModifiedAt>1535573045149</LastModifiedAt>
+    <LastModifiedBy>gonzalezruben@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:801d7fe84dbc24f621448361b34ab90f7af256d9923435d94a87d6bd0edc79c5d4a0c20177e6893b2974889a76182556a609ba02b4f24047be0984fb4bb067f2</ManifestVersion>
+    <Policies>
+        <Policy>AM-Return-Signature</Policy>
+        <Policy>JS-Compare-Hash</Policy>
+        <Policy>JS-Create-Signature</Policy>
+        <Policy>RF-Invalid-Signature</Policy>
+        <Policy>VK-Verfy-Key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JS-Compare-Hash.js</Resource>
+        <Resource>jsc://JS-Create-Signature.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
