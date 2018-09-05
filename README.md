@@ -2,7 +2,7 @@
 
 ## Use Case
 
-A Company wants to migrate existing API/Services from Mashery into Apigee. Mashery [requires}(https://developer.mashery.com/docs/read/mashery_api/20/Authentication) that every api call must be signed. The signature function is:
+A Company wants to migrate existing API/Services from Mashery into Apigee. Mashery [requires](https://developer.mashery.com/docs/read/mashery_api/20/Authentication) that every api call must be signed. The signature function is:
 ```
 apikey = '4tlgrg34454ge433443fsf';  
 secret = '34gffregf37';  
