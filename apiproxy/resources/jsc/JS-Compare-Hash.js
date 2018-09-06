@@ -5,6 +5,7 @@
  var upperTimeLimit = timestamp + 301;
  var lowerTimeLimit = timestamp - 300;
  var _md5 = crypto.getMD5();
+ context.setVariable("flow.signature.valid", false);
  for(var i = lowerTimeLimit; i < upperTimeLimit; i++){
      _md5.update(context.getVariable("verifyapikey.VK-Verfy-Key.client_id"));
      _md5.update(context.getVariable("verifyapikey.VK-Verfy-Key.client_secret"));
@@ -13,7 +14,5 @@
      if(context.getVariable("request.queryparam.sig") == toCompare){
          context.setVariable("flow.signature.valid", true);
          break;
-     } else {
-         context.setVariable("flow.signature.valid", false);
      }
  }
